@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Abisha U</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: #fff;
+      padding: 1rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: #666;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .btn {
+      display: inline-block;
+      background: #333;
+      color: #fff;
+      padding: 0.8rem 1.2rem;
+      margin-top: 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #666;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #fff;
+      margin: 0.5rem 0;
+      padding: 0.8rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Abisha U</h1>
+    <p>Welcome to my personal portfolio website</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am <strong>Abisha U</strong>, a passionate developer who loves building websites and applications. 
+       I specialize in creating clean, responsive, and user-friendly interfaces. 
+       With a strong background in both frontend and backend development, I can take a project from 
+       idea to deployment.</p>
+    <p>Beyond coding, I enjoy problem-solving, collaborating with teams, and learning the latest 
+       trends in technology. My goal is to build impactful solutions that make life easier for users.</p>
+    <p><strong>Key Highlights:</strong></p>
+    <ul>
+      <li>💻 experience in web development</li>
+      <li>🚀 Built and deployed multiple real-world projects</li>
+      <li>🎯 Strong foundation in Data Structures & Algorithms</li>
+      <li>🌐 Interested in AI, cloud, and full-stack technologies</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Project 1</h3>
+        <p> I have created a portfolio website.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <h3>🖥️ Frontend</h3>
+    <ul>
+      <li>HTML5, CSS3, JavaScript</li>
+      <li>React.js</li>
+      <li>Responsive Web Design</li>
+    </ul>
+
+    <h3>⚙️ Backend</h3>
+    <ul>
+      <li>Node.js</li>
+    </ul>
+
+    <h3>🔧 Tools & Others</h3>
+    <ul>
+      <li>Git, GitHub, VS Code</li>
+      <li>Postman, Figma, Canva</li>
+      <li>Deployment: GitHub Pages</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>You can download my resume below:</p>
+    <a href="resume.html" download class="btn">📄 Download Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    
+    
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Abisha U| All rights reserved</p>
+  </footer>
+</body>
+</html>
